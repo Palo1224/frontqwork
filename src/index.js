@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import styles from'./index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Footer } from './components/Footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <div className={styles.footer}>
+
+    <Footer></Footer>
+    </div>
   </React.StrictMode>
 );
 

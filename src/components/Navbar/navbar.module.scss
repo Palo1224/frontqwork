@@ -1,0 +1,50 @@
+.containesNav {
+  display: flex;
+  margin-left: auto;
+  margin-left: auto;
+  flex-direction: column;
+  // padding: 0rem 2rem 0rem 2rem;
+  z-index: 1000;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 20px;
+
+  img {
+    margin-left: 100px;
+
+    float: left;
+  }
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #347cc3;
+  padding: 1rem;
+  justify-content: center;
+  label {
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  span {
+    padding: 1rem;
+  }
+
+  .side_bar_item:hover {
+    span {
+      background-color: white;
+      color: #347cc3;
+    }
+  }
+  .side_bar_item::selection {
+    span {
+      background-color: white;
+      color: #347cc3;
+    }
+  }
+}
