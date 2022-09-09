@@ -4,8 +4,9 @@ import styles from "./softFactory.module.scss"
 export const SoftFactory = () => {
   return (
     <div className={styles.factory}>
+      <h2> Software Factory </h2>
+      <h4>Desarrollos a medida y genericos para el mercado</h4>
       <p>
-        Software Factory Desarrollos a medida y genericos para el mercado ​
         Desarrollamos soluciones basadas en sistemas del tipo TPS
         (transaccionales) que abarcan soluciones basadas en Gestión Comercial
         (ERP), Puntos de Venta, Manejos de Stock, integrándolos facilmente con

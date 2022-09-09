@@ -3,7 +3,7 @@ import styles from "./contactenos.module.scss";
 export const Contactenos = () => {
   return (
     <div className={styles.container}>
-        <h2> Sobre Nosotros</h2>
+        <h2>Contactenos</h2>
         <p>
           Gracias por visitarnos Si Usted esta interesado por nuestros servicios
           o productos no dude en contactarnos completando este formulario.
@@ -12,10 +12,11 @@ export const Contactenos = () => {
         </p>
       <div className={styles.form}>
         <form>
-          <input></input>
-          <input></input>
-          <input></input>
-          <input></input>
+          <input placeholder="Nombre*" required></input>
+
+          <input placeholder="Email*" required></input>
+          <input placeholder="Asunto" ></input>
+          <textarea></textarea>
 
           <button>Enviar</button>
         </form>

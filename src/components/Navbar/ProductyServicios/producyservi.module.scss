@@ -1,11 +1,14 @@
 .container{
-    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 .productServi
 {
-    width: 50rem;
+    width: 40rem;
     margin-left: auto;
     margin-right: auto;
     text-align: start;

@@ -10,8 +10,10 @@
     flex-direction: column;
     padding: 1rem;
     margin-top: 10px;
-    border-radius: 3px;
-color: white;
+    border-radius: 1rem;
+color: black;
+background-color: white;
+margin-bottom: 1rem ;
     li{
         list-style:none;
 
@@ -20,4 +22,14 @@ color: white;
         font-size: 16px;
         font-weight: 600;
     };
+    h2{
+        
+        color:#066AA3;
+        border-bottom: 1px solid white;
+      }
+      h4{
+        color:#066AA3;
+
+        margin: 0;
+      }
 }
