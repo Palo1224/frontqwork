@@ -44,3 +44,13 @@ font-weight: 600;
             margin-left: 0;
         }
 }
+
+@media(height<800px)
+{
+    .home{
+        margin-top:1rem;
+        font-size: 15px;
+
+
+    }
+}
