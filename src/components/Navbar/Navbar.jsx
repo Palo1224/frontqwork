@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styles from "./navbar.module.scss"
 import logo from "../../img/logo.png"
-import { Link } from 'react-router-dom'
+import { Link, Navigate, useNavigate } from 'react-router-dom'
 import { Home } from './Home/Home'
 import { SobreNosotros } from './SobreNosotros/SobreNosotros'
 import { SoftFactory } from './SoftFactory/SoftFactory'
@@ -14,11 +14,12 @@ export const Navbar = () => {
   // const handleHome=()=>{
 
   // }
+  const navigate=useNavigate();
   return (
     <div className={styles.containesNav}>
       <div className={styles.logo}>
 
-      <img src={logo} width={160}></img>
+      <img src={logo} width={180}></img>
       <div>
       <p>Integrando Tecnología e Información para las organizaciones </p>
 
@@ -29,7 +30,7 @@ export const Navbar = () => {
         {/* <Link >
         <label>Home</label>
         </Link> */}
-                <label className={styles.side_bar_item}onClick={ () => setSelectOption("Home") }><span>Home</span></label>
+                <label className={styles.side_bar_item}onClick={ () => setSelectOption("Home") && Navigate("/home") }><span>Home</span></label>
                 <label className={styles.side_bar_item}onClick={ () => setSelectOption("Sobre Nosotros") }><span>Sobre Nosotros</span></label>
                 <label className={styles.side_bar_item}onClick={ () => setSelectOption("Software Factory") }><span>Software Factory</span></label>
                 <label className={styles.side_bar_item}onClick={ () => setSelectOption("Productos y Servicios") }><span>Productos y Servicios</span></label>

@@ -1,16 +1,15 @@
 .containesNav {
   display: flex;
-  margin-left: auto;
-  margin-left: auto;
+
   flex-direction: column;
+
   // padding: 0rem 2rem 0rem 2rem;
   z-index: 1000;
   justify-content: space-between;
-  margin-top: 1rem;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 
   img {
-    margin-left: 100px;
+    margin-left: 500px;
 
     float: left;
   }
@@ -19,15 +18,22 @@
 .logo {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  z-index: 1000;
+  padding-top: 1rem;
+  background-color: white;
 }
 .nav {
   display: flex;
   flex-direction: row;
-  background-color: #347cc3;
+  background-color: #F37402 ;
+  margin-left: auto;
+  margin-left: auto;
   padding: 1rem;
   justify-content: center;
   label {
     color: white;
+    font-weight: 600;
     cursor: pointer;
     font-size: 14px;
   }
@@ -38,13 +44,13 @@
   .side_bar_item:hover {
     span {
       background-color: white;
-      color: #347cc3;
+      color: #F37402;
     }
   }
   .side_bar_item::selection {
     span {
       background-color: white;
-      color: #347cc3;
+      color: #F37402;
     }
   }
 }

@@ -1,8 +1,10 @@
 import React from "react";
+import { Footer } from "../../Footer/Footer";
 import styles from "./SobreNosotros.module.scss"
 export const SobreNosotros = () => {
 
   return (
+    <div className={styles.container}>
     <div className={styles.sobrenostros}>
       <p>
         Sobre Nosotros QWORK es una empresa enfocada a soluciones tecnológicas
@@ -41,6 +43,8 @@ export const SobreNosotros = () => {
         éxito en la infraestructura tecnológica de las organizaciones.
       </p>
       
+    </div>
+
     </div>
   );
 };

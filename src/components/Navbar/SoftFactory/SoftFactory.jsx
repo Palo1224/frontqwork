@@ -1,4 +1,5 @@
 import React from "react";
+import { Footer } from "../../Footer/Footer";
 import styles from "./softFactory.module.scss"
 export const SoftFactory = () => {
   return (
@@ -38,6 +39,8 @@ export const SoftFactory = () => {
         generen transparencias en el uso del mismo.</li>
             </ul>​ 
       </p>
+
     </div>
+   
   );
 };
