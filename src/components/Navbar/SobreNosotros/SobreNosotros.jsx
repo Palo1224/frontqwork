@@ -53,7 +53,7 @@ export const SobreNosotros = () => {
 
       <div>
 
-      <img src={soluciones} width={260}></img>
+      <img src={soluciones}  width={260}></img>
       </div>
 
     </div>

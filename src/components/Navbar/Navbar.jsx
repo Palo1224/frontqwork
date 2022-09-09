@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from "./navbar.module.scss"
 import logo from "../../img/logo.png"
 import { Link, Navigate, useNavigate } from 'react-router-dom'
@@ -11,10 +11,7 @@ export const Navbar = () => {
 
   const [ selectOption, setSelectOption ] = useState(""||"Home")
 
-  // const handleHome=()=>{
-
-  // }
-  const navigate=useNavigate();
+ const navigate=useNavigate("")
   return (
     <div className={styles.containesNav}>
       <div className={styles.logo}>
@@ -30,30 +27,30 @@ export const Navbar = () => {
         {/* <Link >
         <label>Home</label>
         </Link> */}
-                <label className={styles.side_bar_item}onClick={ () => setSelectOption("Home") && Navigate("/home") }><span>Home</span></label>
-                <label className={styles.side_bar_item}onClick={ () => setSelectOption("Sobre Nosotros") }><span>Sobre Nosotros</span></label>
-                <label className={styles.side_bar_item}onClick={ () => setSelectOption("Software Factory") }><span>Software Factory</span></label>
-                <label className={styles.side_bar_item}onClick={ () => setSelectOption("Productos y Servicios") }><span>Productos y Servicios</span></label>
-                <label className={styles.side_bar_item}onClick={ () => setSelectOption("Contáctenos") }><span>Contáctenos</span></label>
+                <label className={styles.side_bar_item}onClick={ () => navigate("/home")}><span>Home</span></label>
+                <label className={styles.side_bar_item}onClick={ () =>   navigate("/sobrenosotros")}><span>Sobre Nosotros</span></label>
+                <label className={styles.side_bar_item}onClick={ () =>navigate("/softwarefactory") }><span>Software Factory</span></label>
+                <label className={styles.side_bar_item}onClick={ () => navigate("/productoyservicio") }><span>Productos y Servicios</span></label>
+                <label className={styles.side_bar_item}onClick={ () => navigate("/contacto") }><span>Contáctenos</span></label>
 
 
       </nav>
 
       </div>
-      {
-              selectOption === "Home" && <Home/>
-            }
+      {/* {
+              selectOption === "Home" &&
+            } */}
+             {/* {
+              selectOption === "Sobre Nosotros" && 
+            } */}
              {
-              selectOption === "Sobre Nosotros" && <SobreNosotros/>
-            }
-             {
-              selectOption === "Software Factory" && <SoftFactory/>
+              selectOption === "Software Factory" && <Link to="/softwarefactory"></Link>
             }
               {
-              selectOption === "Productos y Servicios" && <ProductandServic/>
+              selectOption === "Productos y Servicios"  && <Link to="/productoyservicio"></Link>
             }
                           {
-              selectOption ==="Contáctenos" && <Contactenos/>
+              selectOption ==="Contáctenos" && <Link to="/contacto"></Link>
             }
             
     </div>
