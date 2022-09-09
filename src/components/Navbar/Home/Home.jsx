@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Footer } from '../../Footer/Footer'
 import { Contactenos } from '../Contactenos/Contactenos'
 import styles from "./home.module.scss"
-import principal from "../../../img/principal.jpg"
+import principal from "../../../img/equipos.jpg"
 import { Navigate, useNavigate } from 'react-router-dom'
 export const Home = () => {
 

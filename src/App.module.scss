@@ -31,7 +31,7 @@
 .page{
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 140vh;
 }
 .container{
   // background-color:#77BEFE  ;
@@ -41,12 +41,7 @@
   flex: 1;
 }
 .footer {
-  background-color: transparent;
-  color: black;
-  position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+
 
 
   ul {
@@ -55,18 +50,20 @@
     list-style: none;
     background-color: white;
     justify-content: center;
-    margin: 0;
+
+
     flex-wrap: wrap;
   }
 
   div {
-    margin: 10px;
+    // margin: 10px;
     padding: 10px;
     justify-content: center;
+
   }
+  
   span {
-    margin-top: 20px;
-    margin-bottom: 20px;
+
 
     text-align: justify;
     font-size: 13px;
@@ -78,24 +75,28 @@
       display: block;
       margin-left: auto;
       margin-right: auto;
+      object-fit: contain;
     }
   }
   p {
     margin: 0;
-    padding: 10px;
-    border-bottom: 0.5px solid gray;
 
     text-align: center;
     color: #F17502;
     font-weight: 600;
+    font-size: 15px;
 
   }
   label {
+ padding-top: 30px;
     text-align: justify;
     font-size: 13px;
   }
 }
+.imge{
 
+  border-bottom:  0.5px solid gray;
+}
 
 @keyframes App-logo-spin {
   from {

@@ -24,25 +24,36 @@ function App() {
       <div className={styles.footer}>
     <ul>
       <span>
-        <div>
+      <div >
+        <div className={styles.imge}>
           <img width={100} src={logoqwork}></img>
+          <br></br>
+
           <p>Qwork Pymes</p>
+         
+          </div>
+
           <label>Soluciones automatizadas<br></br> para su Hogar, Oficina,<br></br> Industria, sin alterar su<br></br> instalación actual<br></br> brindando máximo Confort,<br></br> Seguridad y Operatividad.</label>  
 
         </div>
       </span>
       <span>
-        <div>
-          <img width={100} src={logofaniot}></img>
+        <div >
+        <div className={styles.imge}>
+          <img width={130} src={logofaniot}></img>
 
           <p> IOT & Robótica</p>
+          </div>{" "}
           <label>Distribuidores Oficiales <br></br> de soluciones basadas en Internet <br></br> de las cosas y  robótica educativa<br></br>   Fabricadas en la República<br></br>  Argentina por FANIOT</label>
         </div>{" "}
       </span>
   
       <span>
-<div>  <img width={33} src={logocloudpos}></img>
+<div>
+<div className={styles.imge}>
+   <img width={38} src={logocloudpos}></img>
         <p> Su negocio en la Nube</p>
+        </div>{" "}
         <label>Solución Integral para su negocio<br></br>   las 24 hs. los 365 Días del año.</label>
   </div>     
 </span>

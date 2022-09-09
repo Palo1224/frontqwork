@@ -1,8 +1,25 @@
 .container{
-    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60rem;
+
+    img{
+        border: 5px solid white;
+        border-radius: 3px;
+        object-fit: contain;
+        margin: 0;
+
+    }
 
 }
+.imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 
+}
 .sobrenostros
 {
     width: 50rem;
@@ -15,11 +32,18 @@
     margin-top: 10px;
     border-radius: 3px;
 color: white;
+text-align: justify;
         li{
     
         }
-        label{
+        p{
             font-size: 16px;
-            font-weight: 600;
+           
+            font-family: 'Poppins', sans-serif;
+
         };
+      h2{
+        
+        border-bottom: 1px solid white;
+      }
     }

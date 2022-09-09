@@ -1,13 +1,16 @@
 import React from "react";
 import { Footer } from "../../Footer/Footer";
 import styles from "./SobreNosotros.module.scss"
+import image from "../../../img/descarga.jpg"
+import soluciones from "../../../img/soluciones.jpg"
 export const SobreNosotros = () => {
 
   return (
     <div className={styles.container}>
     <div className={styles.sobrenostros}>
+      <h2> Sobre Nosotros</h2>
       <p>
-        Sobre Nosotros QWORK es una empresa enfocada a soluciones tecnológicas
+        QWORK es una empresa enfocada a soluciones tecnológicas
         orientadas a la integración de Sistemas de información. Por integración
         entendemos, la capacidad de proveer soluciones completas que permitan a
         nuestros clientes contar en un determinado proyecto con un proveedor
@@ -42,8 +45,19 @@ export const SobreNosotros = () => {
         en desarrollar e implementar soluciones que puedan ser incorporadas con
         éxito en la infraestructura tecnológica de las organizaciones.
       </p>
-      
     </div>
+    <div className={styles.imagen}>
+    <div>
+      <img src={image} width={260}></img>
+      </div>
+
+      <div>
+
+      <img src={soluciones} width={260}></img>
+      </div>
+
+    </div>
+  
 
     </div>
   );
