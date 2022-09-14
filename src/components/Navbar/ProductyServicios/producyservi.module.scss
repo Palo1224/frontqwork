@@ -1,21 +1,126 @@
+// .container{
+//     display: flex;
+//     flex-direction: row;
+//     margin-left: auto;
+//     margin-right: auto;
+
+// }
+
+// .productServi
+// {
+//     width: 40rem;
+//     margin-left: auto;
+//     margin-right: auto;
+//     text-align: start;
+//     display: flex;
+//     flex-direction: column;
+//     padding: 1rem;
+//     margin-top: 10px;
+//     border-radius: 3px;
+// color: white;
+// }
+
+
 .container{
     display: flex;
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
+    width: 70rem;
+ 
+
+    img{
+        border: 5px solid white;
+        border-radius: 3px;
+        object-fit: contain;
+        margin: 0;
+
+
+    }
+    border-radius: 1rem;
+    background-color: #D4D6D7;
+    padding: 1rem;  
+    margin-bottom: 1rem;
+
 
 }
 
 .productServi
 {
-    width: 40rem;
+
+   
     margin-left: auto;
     margin-right: auto;
     text-align: start;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
-    margin-top: 10px;
+    padding: .5rem;
     border-radius: 3px;
-color: white;
-}
+color: black;
+       
+
+
+
+    label{
+        font-size: 14px;
+        font-weight: 600;
+        text-align:start;
+        padding: 1rem;
+        width: 200px;
+        color: white;
+        background-color: #066AA3;
+        border-radius:3px;
+    };
+    h2{
+        
+        color:#066AA3;
+        border-bottom: 1px solid gray;
+      }
+
+    }
+
+
+    .listas{
+        display: flex;
+        flex-direction: row;
+       
+            span{
+                margin: 10px;
+        
+            }
+    
+            // ul{
+            //     display: flex;
+            //     flex-direction: row;
+            //     margin-left: auto;
+            //     margin-right: auto;
+            // }
+    div{
+        display: flex;
+        flex-direction: column;
+  
+        
+            background-color: #C0C2C3;
+            padding: 1rem;
+            border-radius: 3px;
+            margin: 1rem;
+    }
+            p{
+                font-family: 'Poppins', sans-serif;
+        
+                color: black;
+            font-size: 15px;
+            font-weight: 400;
+    
+            };
+    }
+
+    .lista{
+        display: flex;
+        flex-direction: column;
+            background-color: #C0C2C3;
+            padding: 1rem;
+            border-radius: 3px;
+                
+
+    }
