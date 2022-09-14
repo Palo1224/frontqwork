@@ -4,7 +4,6 @@
 }
 
 .App-logo {
-  height: 40vmin;
   pointer-events: none;
 }
 
@@ -13,6 +12,96 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+// .page{
+//   display: flex;
+//   flex-direction: column; min-height: 120vh;
+
+// }
+// .container{
+//   // background-color:#77BEFE  ;
+//   background-color: #066AA3;
+//   z-index: 1;
+//   padding-bottom: 3rem;
+// }
+// .footer {
+
+
+
+
+// ul {
+//   width: 600px;
+//   margin-left: auto;
+//   margin-right: auto;
+//     display: flex;
+//     flex-direction: row;
+//     list-style: none;
+//     background-color: white;
+//     justify-content: center;
+
+//   gap: 10px;
+//     flex-wrap: wrap;
+//   }
+
+//   div {
+//     justify-content: center;
+
+//   }
+  
+//   span {
+//     padding: 5px;
+//     gap: 10px;
+
+//     margin-bottom: 10px;
+
+//     text-align: justify;
+//     font-size: 11px;
+//     border-right: 0.5px solid gray;
+
+
+
+//     img {
+//       display: block;
+//       margin-left: auto;
+//       margin-right: auto;
+//       object-fit: contain;
+//     }
+//   }
+//   p {
+//     margin: 0;
+//     margin-bottom: 10px;
+
+//     text-align: center;
+//     color: #F17502;
+//     font-weight: 600;
+//     font-size: 14px;
+
+//   }
+//   label{
+//     font-size: 11px;
+    
+//     text-align: justify;
+
+//   }
+
+// }
+// .imge{
+
+//   border-bottom:  0.5px solid gray;
+// }
 
 .App-header {
   background-color: #282c34;
@@ -31,7 +120,7 @@
 .page{
   display: flex;
   flex-direction: column;
-  min-height: 120vh;
+  min-height: 100vh;
 }
 .container{
   // background-color:#77BEFE  ;
@@ -44,29 +133,34 @@
 
 
 
-  ul {
+
+ul {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
     display: flex;
     flex-direction: row;
     list-style: none;
     background-color: white;
     justify-content: center;
 
-
+  gap: 10px;
     flex-wrap: wrap;
   }
 
   div {
-    // margin: 10px;
-    padding: 10px;
     justify-content: center;
 
   }
   
   span {
+    padding: 5px;
+    gap: 10px;
 
+    margin-bottom: 10px;
 
     text-align: justify;
-    font-size: 13px;
+    font-size: 11px;
     border-right: 0.5px solid gray;
 
 
@@ -80,24 +174,26 @@
   }
   p {
     margin: 0;
+    margin-bottom: 10px;
 
     text-align: center;
-    color: #F17502;
+    color: #066AA3;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 14px;
 
   }
-  label {
- padding-top: 30px;
+  label{
+    font-size: 11px;
+    font-weight: 500;
     text-align: justify;
-    font-size: 13px;
+
   }
+
 }
 .imge{
 
   border-bottom:  0.5px solid gray;
 }
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

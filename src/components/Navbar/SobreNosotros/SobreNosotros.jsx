@@ -8,21 +8,23 @@ export const SobreNosotros = () => {
   return (
     <div className={styles.container}>
     <div className={styles.sobrenostros}>
-      <h2> Sobre Nosotros</h2>
+      
+      <h2 > Sobre Nosotros</h2>
       <p>
         QWORK es una empresa enfocada a soluciones tecnológicas
-        orientadas a la integración de Sistemas de información. Por integración
-        entendemos, la capacidad de proveer soluciones completas que permitan a
+        orientadas a la integración de Sistemas de información.
+        Por integración entendemos, la capacidad de proveer soluciones completas que permitan a
         nuestros clientes contar en un determinado proyecto con un proveedor
-        único. Por solución, entendemos, la incorporación de tecnología con la
+        único.</p>
+        <p>Por solución, entendemos, la incorporación de tecnología con la
         finalidad de reducir costos, aumentando la eficiencia de los procesos de
-        negocios y apoyando la estrategia organizacional. QWORK fue fundada en
+        negocios y apoyando la estrategia organizacional.</p><p> QWORK fue fundada en
         el año 2001 con la finalidad de proveer productos y servicios
         informáticos a empresas de diferentes rubros, sean estas pymes o grandes
         empresas, tal como lo demuestra nuestra actual cartera de clientes.
-        Desde nuestra fundación, hemos privilegiado la calidad de nuestros
+        </p><p>Desde nuestra fundación, hemos privilegiado la calidad de nuestros
         productos y servicios y la atención a nuestros clientes como así también
-        la entrega de nuestros proyectos en tiempo y presupuesto. Para llevar a
+        la entrega de nuestros proyectos en tiempo y presupuesto.</p><p> Para llevar a
         cabo nuestra estrategia de negocios nos hemos basado en los siguientes
         aspectos y factores que consideramos clave para un desarrollo de
         negocios exitoso:

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styles from "./navbar.module.scss"
-import logo from "../../img/logo.png"
+import logo from "../../img/qwork.jpg"
 import { Link, Navigate, useNavigate } from 'react-router-dom'
 import { Home } from './Home/Home'
 import { SobreNosotros } from './SobreNosotros/SobreNosotros'
@@ -30,7 +30,9 @@ export const Navbar = () => {
                 <label className={styles.side_bar_item}onClick={ () => navigate("/home")}><span>Home</span></label>
                 <label className={styles.side_bar_item}onClick={ () =>   navigate("/sobrenosotros")}><span>Sobre Nosotros</span></label>
                 <label className={styles.side_bar_item}onClick={ () =>navigate("/softwarefactory") }><span>Software Factory</span></label>
-                <label className={styles.side_bar_item}onClick={ () => navigate("/productoyservicio") }><span>Productos y Servicios</span></label>
+                <label className={styles.side_bar_item}onClick={ () => navigate("/serviciosprofesionales") }><span>Servicios Profesionales</span></label>
+                <label className={styles.side_bar_item}onClick={ () => navigate("/soporte") }><span>Soporte</span></label>
+
                 <label className={styles.side_bar_item}onClick={ () => navigate("/contacto") }><span>Contáctenos</span></label>
 
 
@@ -47,7 +49,10 @@ export const Navbar = () => {
               selectOption === "Software Factory" && <Link to="/softwarefactory"></Link>
             }
               {
-              selectOption === "Productos y Servicios"  && <Link to="/productoyservicio"></Link>
+              selectOption === "Servicios Profesionales"  && <Link to="/serviciosprofesionales"></Link>
+            }
+                                {
+              selectOption ==="Soporte" && <Link to="/soporte"></Link>
             }
                           {
               selectOption ==="Contáctenos" && <Link to="/contacto"></Link>

@@ -5,7 +5,7 @@ import { Footer } from "./components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 import { Home } from "./components/Navbar/Home/Home";
 import { SobreNosotros } from "./components/Navbar/SobreNosotros/SobreNosotros";
-import logoqwork from "./img/logo.png";
+import logoqwork from "./img/qwork.jpg";
 import logocloudpos from "./img/cloudpos.png";
 import logofaniot from "./img/fanIot.png";
 import { Contactenos } from "./components/Navbar/Contactenos/Contactenos";
@@ -22,9 +22,14 @@ function App() {
           <Route path="/sobrenosotros" element={<SobreNosotros />}></Route>
           <Route path="/softwarefactory" element={<SoftFactory />}></Route>
           <Route
-            path="/productoyservicio"
+            path="/serviciosprofesionales"
             element={<ProductandServic />}
           ></Route>
+                <Route
+            path="/soporte"
+            element={<Contactenos />}
+          ></Route>
+          
           <Route path="/contacto" element={<Contactenos />}></Route>
           <Route path="*"></Route>
         </Routes>
@@ -34,7 +39,7 @@ function App() {
           <span>
             <div>
               <div className={styles.imge}>
-                <img width={100} src={logoqwork}></img>
+                <img width={70} src={logoqwork}></img>
                 <br></br>
 
                 <p>Qwork Pymes</p>
@@ -51,7 +56,7 @@ function App() {
           <span>
             <div>
               <div className={styles.imge}>
-                <img width={130} src={logofaniot}></img>
+                <img width={110} src={logofaniot}></img>
 
                 <p> IOT & Robótica</p>
               </div>{" "}
@@ -66,7 +71,7 @@ function App() {
           <span>
             <div>
               <div className={styles.imge}>
-                <img width={38} src={logocloudpos}></img>
+                <img width={33} src={logocloudpos}></img>
                 <p> Su negocio en la Nube</p>
               </div>{" "}
               <label>

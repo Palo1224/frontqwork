@@ -26,13 +26,13 @@
 .nav {
   display: flex;
   flex-direction: row;
-  background-color: #F37402 ;
+  background-color: #D4D6D7 ;
   margin-left: auto;
   margin-left: auto;
   padding: 1rem;
   justify-content: center;
   label {
-    color: white;
+    color: black;
     font-weight: 600;
     cursor: pointer;
     font-size: 14px;
@@ -44,13 +44,13 @@
   .side_bar_item:hover {
     span {
       background-color: white;
-      color: #F37402;
+      color: #066AA3;
     }
   }
   .side_bar_item::selection {
     span {
       background-color: white;
-      color: #F37402;
+      color: #066AA3;
     }
   }
 }

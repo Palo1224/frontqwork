@@ -1,11 +1,28 @@
 .container
 {
     // background-color:#FEB777  ;
-     display: flex;
-     flex-direction: column;
-     margin-left: auto;
-     margin-right: auto;
-     width: 50rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70rem;
+    margin-top:6rem;
+
+
+    img{
+        border: 5px solid white;
+        border-radius: 3px;
+        object-fit: contain;
+        margin: 0;
+        height: 10rem;
+
+    }
+    border-radius: 1rem;
+    // background-color: #D4D6D7;
+    padding-bottom: .5rem;  
+    padding-top: .5rem; 
+   justify-self: unset;
+
 
      
 }
@@ -18,17 +35,16 @@
     display: flex;
     flex-direction: row;
     padding: 1rem;
-    margin-top:6rem;
     border-radius: 3px;
-    gap: 40px;
-
-    // background-color: #D4D6D7;
     font-family: 'Poppins', sans-serif;
-
-
+    
     color: white;
 font-size: 18px;
 font-weight: 400;
+
+width: 40rem;
+
+
     button{
         margin-top: 30px;
         font-size: 15px;
@@ -42,10 +58,7 @@ font-weight: 400;
         text-align: center;
       
         }
-        img{
-            object-fit: contain;
-            margin-left: 0;
-        }
+
 }
 
 @media(height<800px)

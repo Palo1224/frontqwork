@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Footer } from '../../Footer/Footer'
 import { Contactenos } from '../Contactenos/Contactenos'
 import styles from "./home.module.scss"
-import principal from "../../../img/equipos.jpg"
+import principal from "../../../img/images.jfif"
 import { Navigate, useNavigate } from 'react-router-dom'
 export const Home = () => {
 
@@ -25,7 +25,7 @@ export const Home = () => {
 </div>
 </label>
  
-<img width={300}  src={principal}></img>
+<img width={500}  src={principal}></img>
 
 
 
