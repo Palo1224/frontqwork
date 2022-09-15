@@ -148,16 +148,18 @@ color: black;
 }
    
 .titulo{
-    label{
-        font-size: 16px;
+ 
+        font-size: 15px;
         font-weight: 600;
         text-align:start;
-        padding: 1.2rem;
+        padding: 1rem;
         color: white;
         background-color: #066AA3;
         border-radius:3px;
-            display: flex ;        
-    }  
+            display: flex ;  
+            margin-left: 1rem;    
+            margin-right: 1rem;  
+    
 }
 
 .datos{

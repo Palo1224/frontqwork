@@ -132,73 +132,73 @@
 .footer {
 
 
-
-
-ul {
-  width: 600px;
   margin-left: auto;
   margin-right: auto;
     display: flex;
-    flex-direction: row;
-    list-style: none;
+    flex-direction: row;   
+     list-style: none;
     background-color: white;
-    justify-content: center;
 
   gap: 10px;
-    flex-wrap: wrap;
+
+
+ul{
+  display: flex;
+  flex-direction: row;  
+gap: 30px;  li{
+  list-style: none;
+  border-right: 0.5px solid gray;
+
   }
 
-  div {
-    justify-content: center;
-
-  }
   
-  span {
-    padding: 5px;
-    gap: 10px;
+}
+  .li{
+   
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-around;
 
-    margin-bottom: 10px;
+    
+    label{
+      display: flex;
+      flex-direction: row;    
+      margin-right: 10px;
 
-    text-align: justify;
-    font-size: 11px;
-    border-right: 0.5px solid gray;
-
-
-
+      
+      
+    }
     img {
       display: block;
       margin-left: auto;
       margin-right: auto;
       object-fit: contain;
+      margin-bottom: 10px;
+      
+      
     }
+
+   
   }
+
   p {
+
     margin: 0;
-    margin-bottom: 10px;
 
     text-align: center;
-    color: #066AA3;
     font-weight: 600;
     font-size: 14px;
 
   }
   label{
+    border-top:  0.5px solid gray;
+
     font-size: 11px;
-    font-weight: 500;
+    margin-top: 10px;
+
     text-align: justify;
 
   }
 
 }
-.imge{
 
-  border-bottom:  0.5px solid gray;
-}
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

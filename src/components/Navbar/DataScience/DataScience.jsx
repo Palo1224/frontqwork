@@ -3,9 +3,9 @@ import styles from "./datascience.module.scss";
 import datascience from "../../../img/DataScience.jpg"
 export const DataScience = () => {
   return (
-    <div className={styles.container}>
 
-        <div className={styles.data}>
+    <div className={styles.container}>
+  <div className={styles.home}>
         <div>
 
 <h2>Data Science</h2>
