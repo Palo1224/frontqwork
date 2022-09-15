@@ -23,9 +23,11 @@ export const ProductandServic = () => {
             <div className={styles.titulo}>
               <label>Mantenimiento Preventivo y Correctivo</label>
             </div>
+<div>
 
-            <div>
               <img width={270} src={computadora} />
+</div>
+            <div className={styles.datos}>
               <p>
                 Los mantenimiento preventivos y correctivos le permiten a la
                 organizacion poder contar con el servicio en tiempo y forma y no
@@ -47,7 +49,7 @@ export const ProductandServic = () => {
 
               <img width={270} src={redes} />
 </div>
-            <div>
+            <div className={styles.datos}>
 
               <p>
                 Redes y Conectividad e Infraestructura Todo lo relacionado a el
@@ -76,11 +78,11 @@ export const ProductandServic = () => {
               <img src={grupos} width={270} />
             </div>
 
-            <div>
+            <div className={styles.datos}>
               <p>
                 Usted podrá contrar con un gerenciamiento tercerizado, confiando
                 la administración y necesidades de IT de su organización en
-                nuestra empresa .
+                nuestra empresa.
               </p>
               <p>
                 Podemos participar del Diseño y puesta en marcha del
