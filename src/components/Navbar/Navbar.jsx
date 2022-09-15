@@ -2,11 +2,7 @@ import React, { useEffect, useState } from 'react'
 import styles from "./navbar.module.scss"
 import logo from "../../img/qwork.jpg"
 import { Link, Navigate, useNavigate } from 'react-router-dom'
-import { Home } from './Home/Home'
-import { SobreNosotros } from './SobreNosotros/SobreNosotros'
-import { SoftFactory } from './SoftFactory/SoftFactory'
-import { ProductandServic } from './ProductyServicios/ProductandServic'
-import { Contactenos } from './Contactenos/Contactenos'
+
 export const Navbar = () => {
 
   const [ selectOption, setSelectOption ] = useState(""||"Home")

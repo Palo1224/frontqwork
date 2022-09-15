@@ -1,9 +1,12 @@
 import React from "react";
-import styles from "../ProductyServicios/producyservi.module.scss";
-import computadora from "../../../img/computadora.png";
-import redes from "../../../img/redes.png";
-import grupos from "../../../img/grupos.png";
+import styles from "./robotica.module.scss";
+import arduino from "../../../img/arduino1.png";
+import robot from "../../../img/robot.png";
+import camaras from "../../../img/camaras.png";
+import { useNavigate } from "react-router-dom";
 export const Robotica = () => {
+
+    const navigate=useNavigate()
   return (
     <div className={styles.container}>
       <div className={styles.productServi}>
@@ -19,10 +22,10 @@ export const Robotica = () => {
         <div className={styles.listas}>
           <div className={styles.li}>
             <div className={styles.titulo}>
-              <label>Kit Market IOT</label>
+              <span>Kit Market IOT</span>
             </div>
-            <div>
-              <img width={250} src={computadora} />
+            <div className={styles.imagenArduino}>
+              <img  width={200} src={arduino} />
             </div>
             <div className={styles.datos}>
               <p>
@@ -68,10 +71,10 @@ export const Robotica = () => {
 
           <div className={styles.li}>
             <div className={styles.titulo}>
-              <label>FanBorg</label>
+              <span>FanBorg     </span>
             </div>
             <div>
-              <img width={250} src={redes} />
+              <img width={200} src={robot} />
             </div>
             <div className={styles.datos}>
               <p>
@@ -113,11 +116,11 @@ export const Robotica = () => {
           </div>
           <div className={styles.li}>
             <div className={styles.titulo}>
-              <label>Sensores IOT</label>
+              <span>Sensores IOT</span>
             </div>
 
             <div>
-              <img src={grupos} width={250} />
+              <img src={camaras} width={200} />
             </div>
 
             <div className={styles.datos}>
@@ -147,11 +150,12 @@ export const Robotica = () => {
               </p>
             </div>
           </div>
+
         </div>
         <div>
-            <button>
+            <a href={"https://www.faniot.com.ar/dossier/Cat%c3%a1logo-FANIOT-2021.pdf"} target="_blank">
                 Catálogo FANIOT
-            </button>
+            </a>
         </div>
       </div>
     </div>

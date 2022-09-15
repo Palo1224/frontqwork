@@ -25,9 +25,9 @@ No dude en ingresar a nuestro soporte remoto
 
 
 <div>
-<button>
-        Ingresar a Soporte
-    </button>
+<a href={"http://179.43.114.242:8008/"} target="_blank">
+                Ingresar a Soporte
+            </a>
 </div>
 
 
