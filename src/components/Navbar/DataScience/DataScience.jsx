@@ -5,7 +5,7 @@ export const DataScience = () => {
   return (
 
     <div className={styles.container}>
-  <div className={styles.home}>
+  <div className={styles.data}>
         <div>
 
 <h2>Data Science</h2>

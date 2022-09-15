@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./contactenos.module.scss";
+import contact from "../../../img/contact.jfif"
 export const Contactenos = () => {
   return (
     <div className={styles.container}>
@@ -23,6 +24,9 @@ export const Contactenos = () => {
 
           <button>Enviar</button>
         </form>
+        <div>
+          <img src={contact} width={240}/>
+        </div>
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ import { ProductandServic } from "./components/Navbar/ProductyServicios/Producta
 import { Soporte } from "./components/Navbar/Soporte/Soporte";
 import { Robotica } from "./components/Navbar/Robotica/Robotica";
 import { DataScience } from "./components/Navbar/DataScience/DataScience";
-
+import {FaMapMarkerAlt, FaPhoneAlt} from "react-icons/fa"
 function App() {
   return (
     <div className={styles.page}>
@@ -26,35 +26,22 @@ function App() {
             path="/serviciosprofesionales"
             element={<ProductandServic />}
           ></Route>
-                          <Route
-            path="/robotica"
-            element={<Robotica />}
-          ></Route>
-                         <Route
-            path="/datascience"
-            element={<DataScience />}
-          ></Route>
-                <Route
-            path="/soporte"
-            element={<Soporte />}
-          ></Route>
-          
-          
+          <Route path="/robotica" element={<Robotica />}></Route>
+          <Route path="/datascience" element={<DataScience />}></Route>
+          <Route path="/soporte" element={<Soporte />}></Route>
+
           <Route path="/contacto" element={<Contactenos />}></Route>
           <Route path="*"></Route>
         </Routes>
       </div>
       <div className={styles.footer}>
-      
         <ul>
           <li>
-          <div className={styles.li}>
-              <div  >
+            <div className={styles.li}>
+              <div>
                 <img width={110} src={logoqwork}></img>
-              
-
               </div>
-                <p>QworkPymes</p>
+              <p>QworkPymes</p>
 
               <label>
                 Soluciones automatizadas<br></br> para su Hogar, Oficina,
@@ -65,12 +52,11 @@ function App() {
             </div>
           </li>
           <li>
-          <div className={styles.li}>
-              <div >
+            <div className={styles.li}>
+              <div>
                 <img width={110} src={logofaniot}></img>
-
               </div>{" "}
-                <p> IOT & Robótica</p>
+              <p> IOT & Robótica</p>
               <label>
                 Distribuidores Oficiales <br></br> de soluciones basadas en
                 Internet <br></br> de las cosas y robótica educativa<br></br>{" "}
@@ -79,24 +65,34 @@ function App() {
             </div>{" "}
           </li>
           <li>
-            
-          <div className={styles.li}>
-              <div >
+            <div className={styles.li}>
+              <div>
                 <img width={110} src={logocloudpos}></img>
               </div>{" "}
-                <p> Su negocio en la Nube</p>
+              <p> Su negocio en la Nube</p>
               <label>
                 Solución Integral para su negocio<br></br> las 24 hs. los 365
                 Días del año.
               </label>
             </div>
           </li>
-        
-           
-
         </ul>
-        
-       
+      </div>
+
+      <div className={styles.datos}>
+        <div>
+          <p>
+          <FaMapMarkerAlt></FaMapMarkerAlt>
+          <a target="_blank" href="https://goo.gl/maps/BMHfivXVRc6K7PXv5">
+          Av. Caseros 2862 P3 Of. A Distrito Tecnológico Ciudad Autonoma Bs.
+            As. Argentna
+          </a>
+          
+          </p>
+          <p><FaPhoneAlt/> <a target="_blank"  href="tel:+54 11 68474405">+54 11 68474405
+            </a> <a target="_blank" href="tel:+54 11 68474684" >+54 11 68474684</a> <a  target="_blank" href="tel:+54 11 68474238">+54 11 68474238</a> </p>
+          <p></p>
+        </div>
       </div>
     </div>
   );

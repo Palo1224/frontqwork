@@ -27,7 +27,7 @@ export const ProductandServic = () => {
             </div>
 <div>
 
-              <img width={200} src={computadora} />
+              <img width={230} src={computadora} />
 </div>
             <div className={styles.datos}>
               <p>
@@ -49,7 +49,7 @@ export const ProductandServic = () => {
             </div>
 <div>
 
-              <img width={200} src={redes} />
+              <img width={230} src={redes} />
 </div>
             <div className={styles.datos}>
 
@@ -76,7 +76,7 @@ export const ProductandServic = () => {
             </div>
 
             <div>
-              <img src={grupos} width={200} />
+              <img src={grupos} width={230} />
             </div>
 
             <div className={styles.datos}>
