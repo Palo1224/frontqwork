@@ -7,7 +7,7 @@ export const ProductandServic = () => {
   return (
     <div className={styles.container}>
       <div className={styles.productServi}>
-        <h2>Soporte y Servicios</h2>
+        <h2>Servicios Profesionales</h2>
         <p>
           Quality Work cuenta con un Staff de profesionales que asistirán a la
           organizacion en todo lo relacionado a su operatividad basada en su
