@@ -1,7 +1,6 @@
 import logo from "./logo.svg";
 import styles from "./App.module.scss";
 import { Navbar } from "./components/Navbar/Navbar";
-import { Footer } from "./components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 import { Home } from "./components/Navbar/Home/Home";
 import { SobreNosotros } from "./components/Navbar/SobreNosotros/SobreNosotros";
@@ -13,6 +12,7 @@ import { SoftFactory } from "./components/Navbar/SoftFactory/SoftFactory";
 import { ProductandServic } from "./components/Navbar/ProductyServicios/ProductandServic";
 import { Soporte } from "./components/Navbar/Soporte/Soporte";
 import { Robotica } from "./components/Navbar/Robotica/Robotica";
+import { DataScience } from "./components/Navbar/DataScience/DataScience";
 
 function App() {
   return (
@@ -30,6 +30,10 @@ function App() {
                           <Route
             path="/robotica"
             element={<Robotica />}
+          ></Route>
+                         <Route
+            path="/datascience"
+            element={<DataScience />}
           ></Route>
                 <Route
             path="/soporte"
