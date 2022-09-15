@@ -11,6 +11,7 @@ import logofaniot from "./img/fanIot.png";
 import { Contactenos } from "./components/Navbar/Contactenos/Contactenos";
 import { SoftFactory } from "./components/Navbar/SoftFactory/SoftFactory";
 import { ProductandServic } from "./components/Navbar/ProductyServicios/ProductandServic";
+import { Soporte } from "./components/Navbar/Soporte/Soporte";
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
           ></Route>
                 <Route
             path="/soporte"
-            element={<Contactenos />}
+            element={<Soporte />}
           ></Route>
           
           <Route path="/contacto" element={<Contactenos />}></Route>
