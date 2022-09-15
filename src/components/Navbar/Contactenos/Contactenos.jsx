@@ -1,7 +1,13 @@
 import React from "react";
 import styles from "./contactenos.module.scss";
-import contact from "../../../img/contact.jfif"
+import contact from "../../../img/contact.jfif";
+// import emailjs from "emailjs-com";
 export const Contactenos = () => {
+
+  // const sendEmail=(e)=>{
+  //  e.preventDefault();
+  //  emailjs.sendForm()
+  // }
   return (
     <div className={styles.container}>
         <h2>Contáctenos</h2>
@@ -15,14 +21,13 @@ export const Contactenos = () => {
             </p> 
         </p>
       <div className={styles.form}>
-        <form>
-          <input placeholder="Nombre*" required></input>
+        <form action="https://formsubmit.co/palomavaira@hotmail.com" method="POST">
+          <input type="text" name="name"placeholder="Nombre*" required></input>
 
-          <input placeholder="Email*" required></input>
-          <input placeholder="Asunto" ></input>
-          <textarea></textarea>
+          <input type="email" name="email"placeholder="Email*" required></input>
+          <textarea placeholder="Asunto" class="form-control" name="message" rows="10" required></textarea>
 
-          <button>Enviar</button>
+          <button type="submit">Enviar</button>
         </form>
         <div>
           <img src={contact} width={240}/>
