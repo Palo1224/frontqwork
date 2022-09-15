@@ -166,3 +166,38 @@ color: black;
     text-align: start;
     margin: 0;
 }
+
+
+
+@media(width<1000px)
+{
+    .container{
+        width: auto;
+        margin: 1rem;
+        font-size: 12px;
+
+    }
+    .listas
+    {
+        width: 10px;
+ 
+        font-size: 10px;
+
+    }
+    img{
+        width: 120px;
+    }
+    .titulo{
+ 
+        font-size: 12px;
+        font-weight: 600;
+        text-align:start;
+        padding: .1rem 3rem;
+        color: white;
+        background-color: #066AA3;
+        border-radius:3px;
+            display: flex ;  
+      
+    
+}
+}

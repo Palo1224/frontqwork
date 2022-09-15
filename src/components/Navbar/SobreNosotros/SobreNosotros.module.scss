@@ -58,3 +58,16 @@ text-align: justify;
         border-bottom: 1px solid gray;
       }
     }
+
+
+    @media(width<1000px)
+{
+    .container{
+        width: auto;
+        margin: 1rem;
+    }
+    .sobrenostros{
+        width: auto;
+        
+    }
+}

@@ -9,7 +9,7 @@ export const Robotica = () => {
     const navigate=useNavigate()
   return (
     <div className={styles.container}>
-      <div className={styles.productServi}>
+      <div className={styles.robotica}>
         <h2>IOT & Robotica</h2>
         <p>
           Comercializamos e implementamos soluciones basadas en IOT y Robotica

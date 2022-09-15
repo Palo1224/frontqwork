@@ -1,15 +1,11 @@
 import React from "react";
 import styles from "./contactenos.module.scss";
 import contact from "../../../img/contact.jfif";
-// import emailjs from "emailjs-com";
 export const Contactenos = () => {
 
-  // const sendEmail=(e)=>{
-  //  e.preventDefault();
-  //  emailjs.sendForm()
-  // }
   return (
     <div className={styles.container}>
+
         <h2>Contáctenos</h2>
         <p>
           Gracias por visitarnos
@@ -21,7 +17,7 @@ export const Contactenos = () => {
             </p> 
         </p>
       <div className={styles.form}>
-        <form action="https://formsubmit.co/palomavaira@hotmail.com" method="POST">
+        <form action="https://formspree.io/f/xqkjpqnw" method="POST">
           <input type="text" name="name"placeholder="Nombre*" required></input>
 
           <input type="email" name="email"placeholder="Email*" required></input>
@@ -36,3 +32,4 @@ export const Contactenos = () => {
     </div>
   );
 };
+

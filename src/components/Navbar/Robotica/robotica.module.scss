@@ -36,7 +36,7 @@
         }
 }
 
-.productServi
+.robotica
 {
 
    
@@ -188,4 +188,14 @@ color: black;
 .datos{
     text-align: start;
     margin: 0;
+}
+
+
+@media(width<1000px)
+{
+    .container{
+        width: auto;
+        margin: 1rem;
+    }
+
 }
