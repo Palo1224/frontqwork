@@ -22,7 +22,7 @@ export const Robotica = () => {
         <div className={styles.listas}>
           <div className={styles.li}>
             <div className={styles.titulo}>
-              <span>Kit Market IOT</span>
+              <label className={styles.kitmarket}>Kit Market IOT</label>
             </div>
             <div className={styles.imagenArduino}>
               <img  width={200} src={arduino} />
@@ -71,7 +71,7 @@ export const Robotica = () => {
 
           <div className={styles.li}>
             <div className={styles.titulo}>
-              <span>FanBorg     </span>
+              <label className={styles.fanborg}>FanBorg    </label>
             </div>
             <div>
               <img width={200} src={robot} />
@@ -116,7 +116,7 @@ export const Robotica = () => {
           </div>
           <div className={styles.li}>
             <div className={styles.titulo}>
-              <span>Sensores IOT</span>
+              <label className={styles.sensores}>Sensores IOT</label>
             </div>
 
             <div>
