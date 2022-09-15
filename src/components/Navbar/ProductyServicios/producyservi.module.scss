@@ -26,7 +26,7 @@
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
-    width: 70rem;
+    width: 65rem;
  
 
     img{
@@ -61,16 +61,7 @@ color: black;
 
 
 
-    label{
-        font-size: 14px;
-        font-weight: 600;
-        text-align:start;
-        padding: 1rem;
-        width: 200px;
-        color: white;
-        background-color: #066AA3;
-        border-radius:3px;
-    };
+
     h2{
         
         color:#066AA3;
@@ -83,7 +74,7 @@ color: black;
     .listas{
         display: flex;
         flex-direction: row;
-       
+      
             span{
                 margin: 10px;
         
@@ -95,16 +86,8 @@ color: black;
             //     margin-left: auto;
             //     margin-right: auto;
             // }
-    div{
-        display: flex;
-        flex-direction: column;
-  
-        
-            background-color: #C0C2C3;
-            padding: 1rem;
-            border-radius: 3px;
-            margin: 1rem;
-    }
+
+            
             p{
                 font-family: 'Poppins', sans-serif;
         
@@ -112,15 +95,41 @@ color: black;
             font-size: 15px;
             font-weight: 400;
     
+
             };
+
+            
+   
+           
     }
 
-    .lista{
-        display: flex;
-        flex-direction: column;
-            background-color: #C0C2C3;
-            padding: 1rem;
-            border-radius: 3px;
-                
+.li{
 
-    }
+   
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    background-color: #C0C2C3;
+    position: relative;
+    padding: 1rem;
+    border-radius: 3px;
+    margin: 1rem;
+    gap: 20px;
+  
+
+   
+}
+   
+.titulo{
+    label{
+        font-size: 14px;
+        font-weight: 600;
+        text-align:start;
+        padding: 1.2rem;
+        color: white;
+        background-color: #066AA3;
+        border-radius:3px;
+            display: flex ;        
+    }  
+}

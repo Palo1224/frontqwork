@@ -19,12 +19,13 @@ export const ProductandServic = () => {
         </p>
 
         <div className={styles.listas}>
-          <div className={styles.lista}>
-            <div>
+          <div className={styles.li}>
+            <div className={styles.titulo}>
               <label>Mantenimiento Preventivo y Correctivo</label>
             </div>
+
             <div>
-              <img width={200} src={computadora} />
+              <img width={270} src={computadora} />
               <p>
                 Los mantenimiento preventivos y correctivos le permiten a la
                 organizacion poder contar con el servicio en tiempo y forma y no
@@ -38,12 +39,15 @@ export const ProductandServic = () => {
             </div>
           </div>
 
-          <div className={styles.lista}>
-            <div>
+          <div className={styles.li}>
+            <div className={styles.titulo}>
               <label>Redes y Conectividad e Infraestructura</label>
             </div>
+<div>
+
+              <img width={270} src={redes} />
+</div>
             <div>
-              <img width={200} src={redes} />
 
               <p>
                 Redes y Conectividad e Infraestructura Todo lo relacionado a el
@@ -63,12 +67,16 @@ export const ProductandServic = () => {
               </p>
             </div>
           </div>
-          <div className={styles.lista}>
-            <div>
+          <div className={styles.li}>
+            <div className={styles.titulo}>
               <label>Gerenciamiento de Infraestructuras Tecnológicas</label>
             </div>
+
             <div>
-              <img src={grupos} width={200} />
+              <img src={grupos} width={270} />
+            </div>
+
+            <div>
               <p>
                 Usted podrá contrar con un gerenciamiento tercerizado, confiando
                 la administración y necesidades de IT de su organización en
