@@ -12,6 +12,7 @@ import { Contactenos } from "./components/Navbar/Contactenos/Contactenos";
 import { SoftFactory } from "./components/Navbar/SoftFactory/SoftFactory";
 import { ProductandServic } from "./components/Navbar/ProductyServicios/ProductandServic";
 import { Soporte } from "./components/Navbar/Soporte/Soporte";
+import { Robotica } from "./components/Navbar/Robotica/Robotica";
 
 function App() {
   return (
@@ -26,10 +27,15 @@ function App() {
             path="/serviciosprofesionales"
             element={<ProductandServic />}
           ></Route>
+                          <Route
+            path="/robotica"
+            element={<Robotica />}
+          ></Route>
                 <Route
             path="/soporte"
             element={<Soporte />}
           ></Route>
+          
           
           <Route path="/contacto" element={<Contactenos />}></Route>
           <Route path="*"></Route>
