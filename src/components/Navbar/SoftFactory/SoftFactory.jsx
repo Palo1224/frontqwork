@@ -24,7 +24,7 @@ export const SoftFactory = () => {
         Consideramos que a la hora de elegir desarrollar un software o bien
         adquirirlo el mismo debería cumplir con los siguientes estandares:
       </p>
-      <br></br>
+      
       <div className={styles.listas}>
        
           <div className={styles.lista}>
@@ -67,6 +67,7 @@ export const SoftFactory = () => {
 
           <span>3</span>
             </div>
+       
           
           <div>
 

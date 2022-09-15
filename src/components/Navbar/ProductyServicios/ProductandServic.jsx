@@ -14,7 +14,9 @@ export const ProductandServic = () => {
           infraestructura de IT.{" "}
         </p>
         <p>
-          Contamos con servicios on demand o fijos (mensuales) dimensionando
+          Contamos con servicios <b>on demand
+            </b> o <b>fijos (mensuales)
+              </b> dimensionando
           cada uno en base a la infraestructura de IT de quien o solicita.
         </p>
 
@@ -25,7 +27,7 @@ export const ProductandServic = () => {
             </div>
 <div>
 
-              <img width={270} src={computadora} />
+              <img width={250} src={computadora} />
 </div>
             <div className={styles.datos}>
               <p>
@@ -47,13 +49,12 @@ export const ProductandServic = () => {
             </div>
 <div>
 
-              <img width={270} src={redes} />
+              <img width={250} src={redes} />
 </div>
             <div className={styles.datos}>
 
               <p>
-                Redes y Conectividad e Infraestructura Todo lo relacionado a el
-                Diseño, Implementación y mantenimiento de su red o redes, puede
+               Todo lo relacionado a el Diseño, Implementación y mantenimiento de su red o redes, puede
                 ser transferido a nuestro staff.
               </p>
               <p>
@@ -75,7 +76,7 @@ export const ProductandServic = () => {
             </div>
 
             <div>
-              <img src={grupos} width={270} />
+              <img src={grupos} width={250} />
             </div>
 
             <div className={styles.datos}>

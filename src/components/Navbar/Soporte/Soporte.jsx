@@ -1,13 +1,9 @@
-import React, { useEffect, useState } from 'react'
-import { Footer } from '../../Footer/Footer'
-import { Contactenos } from '../Contactenos/Contactenos'
-import styles from "./home.module.scss"
-import principal from "../../../img/images.jfif"
+import React from 'react'
+import styles from "./soporte.module.scss"
 import { Navigate, useNavigate } from 'react-router-dom'
-export const Home = () => {
+export const Soporte = () => {
 
 
-  const [select, setSelect]=useState("")
   const navigate=useNavigate()
 
 
@@ -25,7 +21,7 @@ export const Home = () => {
 </div>
 </label>
  
-<img width={300}  src={principal}></img>
+{/* <img width={300}  src={principal}></img> */}
 
 
 
