@@ -64,10 +64,10 @@
 
 p {
     font-size: 14px;
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    white-space: normal
+    font-family: 'Poppins', sans-serif;    
+    font-weight: 500;
 
+    margin: 0;
 }
 
 .listas {
@@ -78,15 +78,14 @@ p {
 
 
 
+
     p {
         font-size: 14px;
         font-family: 'Poppins', sans-serif;
-        text-align: justify;
-        display: flex;
-        white-space: normal;
 
     }
 
+    ;
 
 
 
@@ -107,7 +106,11 @@ p {
     gap: 20px;
     width: 14rem;
 
+    p {
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
 
+    }
 
 
 
