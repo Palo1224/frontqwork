@@ -10,13 +10,13 @@ export const Robotica = () => {
   return (
     <div className={styles.container}>
       <div className={styles.robotica}>
-        <h2>IOT & Robotica</h2>
+        <h2>IOT & Robótica</h2>
         <p>
-          Comercializamos e implementamos soluciones basadas en IOT y Robotica
+          Comercializamos e implementamos soluciones basadas en IOT y Robótica.
         </p>
         <p>
           QWORK comercializa y distribuye soluciones de FANIOT, que es la
-          Fabrica de Nano sensores & IOT (Misiones - Republica Argentina)
+          Fabrica de Nano sensores & IOT (Misiones - Republica Argentina).
         </p>
 
         <div className={styles.listas}>
@@ -25,9 +25,8 @@ export const Robotica = () => {
               <label className={styles.kitmarket}>Kit Market IOT</label>
             </div>
             <div className={styles.imagenArduino}>
-              <img  width={200} src={arduino} />
+              <img  width={210} src={arduino} />
             </div>
-            <div className={styles.datos}>
               <p>
                 Kit Market IOT El Kit incluye 3 (tres) Módulos Educativos
                 FANIOT, que introducen al estudiante en los trabajos del futuro,
@@ -66,7 +65,6 @@ export const Robotica = () => {
                 Maker IOT PRO. Posee conexión para cargarse mediante paneles
                 solares o un cargador USB de 5V
               </p>
-            </div>
           </div>
 
           <div className={styles.li}>
@@ -74,9 +72,8 @@ export const Robotica = () => {
               <label className={styles.fanborg}>FanBorg    </label>
             </div>
             <div>
-              <img width={200} src={robot} />
+              <img width={210} src={robot} />
             </div>
-            <div className={styles.datos}>
               <p>
                 Es un pequeño Vehículo Terreste no tripulado, capaz de mantener
                 de manera autónoma un recorrido pre-programado. Dispone de
@@ -112,7 +109,6 @@ export const Robotica = () => {
                   </li>
                 </ul>
               </p>
-            </div>
           </div>
           <div className={styles.li}>
             <div className={styles.titulo}>
@@ -120,10 +116,9 @@ export const Robotica = () => {
             </div>
 
             <div>
-              <img src={camaras} width={200} />
+              <img src={camaras} width={210} />
             </div>
 
-            <div className={styles.datos}>
               <p>
                 Soluciones para Ciudades Inteligentes y Educación Innovadora
               </p>
@@ -148,7 +143,6 @@ export const Robotica = () => {
                 seguimiento de las diferentes concentraciones de Dióxido de
                 Carbono que se encuentran en el ambiente.
               </p>
-            </div>
           </div>
 
         </div>

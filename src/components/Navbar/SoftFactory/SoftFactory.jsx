@@ -5,7 +5,7 @@ export const SoftFactory = () => {
   return (
     <div className={styles.factory}>
       <h2> Software Factory </h2>
-      <h4>Desarrollos a medida y genericos para el mercado</h4>
+      <h3>Desarrollos a medida y genericos para el mercado</h3>
       <p>
         Desarrollamos soluciones basadas en sistemas del tipo TPS
         (transaccionales) que abarcan soluciones basadas en Gestión Comercial

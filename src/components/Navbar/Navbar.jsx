@@ -27,8 +27,8 @@ export const Navbar = () => {
                 <label className={styles.side_bar_item}onClick={ () =>   navigate("/sobrenosotros")}><span>Sobre Nosotros</span></label>
                 <label className={styles.side_bar_item}onClick={ () =>navigate("/softwarefactory") }><span>Software Factory</span></label>
                 <label className={styles.side_bar_item}onClick={ () => navigate("/robotica") }><span>IOT & Robotica</span></label>
-                <label className={styles.side_bar_item}onClick={ () => navigate("/datascience") }><span>Data Science</span></label>
-                <label className={styles.side_bar_item}onClick={ () => navigate("/serviciosprofesionales") }><span>Servicios Profesionales</span></label>
+                <label className={styles.side_bar_item}onClick={ () => navigate("/cloudpos") }><span>CloudPos</span></label>
+                <label className={styles.side_bar_item}onClick={ () => navigate("/datascience&ia") }><span>DataScience & IA</span></label>
                 <label className={styles.side_bar_item}onClick={ () => navigate("/soporte") }><span>Soporte</span></label>
 
                 <label className={styles.side_bar_item}onClick={ () => navigate("/contacto") }><span>Contáctenos</span></label>
@@ -47,10 +47,10 @@ export const Navbar = () => {
               selectOption === "Software Factory" && <Link to="/softwarefactory"></Link>
             }
               {
-              selectOption === "Servicios Profesionales"  && <Link to="/serviciosprofesionales"></Link>
+              selectOption === "DataScience"  && <Link to="/datascience&ia"></Link>
             }
                    {
-              selectOption === "datascience"  && <Link to="/datascience"></Link>
+              selectOption === "cloudpos"  && <Link to="/cloudpos"></Link>
             }
                                 {
               selectOption ==="Soporte" && <Link to="/soporte"></Link>
