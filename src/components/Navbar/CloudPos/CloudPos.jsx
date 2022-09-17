@@ -108,6 +108,7 @@ export const CloudPos = () => {
             <div>
               <img width={210} src={valor} />
             </div>
+            <div>
             <p>
               <b>Integración con QWGestión (ERP)</b>
             </p>
@@ -135,6 +136,8 @@ export const CloudPos = () => {
             <p>
               <b>"POINT OF SALE" bajo tecnología</b>
             </p>
+            </div>
+          
           </div>
           <div className={styles.li}>
             <div className={styles.titulo}>
@@ -146,8 +149,8 @@ export const CloudPos = () => {
             <div>
               <img src={infractura} width={210} />
             </div>
-
-            <p>
+    <div>
+    <p>
               <b>Requerimientos Mínimos</b>
             </p>
             <p>
@@ -179,6 +182,8 @@ export const CloudPos = () => {
             <p>
             La transmisión de datos esta basada en encriptamiento asimétrico, combinada con algoritmos de HASH para el control de integridad de datos.
             </p>
+    </div>
+           
           </div>
         </div>
         <div>
