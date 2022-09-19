@@ -46,7 +46,7 @@ export const CloudPos = () => {
           <div className={styles.li}>
             <div className={styles.titulo}>
               <label className={styles.alcance}>
-                Alcance funcional <br></br>de los módulos
+                Alcance funcional de los módulos
               </label>
             </div>
             <div className={styles.imagenArduino}>
@@ -102,7 +102,7 @@ export const CloudPos = () => {
           <div className={styles.li}>
             <div className={styles.titulo}>
               <label className={styles.valoragregado}>
-                Valor agregado<br></br> del Punto de Venta
+                Valor agregado del Punto de Venta
               </label>
             </div>
             <div>

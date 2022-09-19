@@ -192,15 +192,12 @@ color: black;
         font-size: 12px;
 
     }
-    .listas
-    {
-        width: 10px;
- 
-        font-size: 10px;
-
+    .li{
+        width:170px;
     }
+
     img{
-        width: 120px;
+        width: 150px;
     }
     .titulo{
  
@@ -215,4 +212,44 @@ color: black;
       
     
 }
+
+.titulo{
+ 
+  padding: 0;
+    .alcance{
+        font-size: 13px;
+        background-color: #066AA3;
+        color: white;
+        border-radius:3px;    
+        padding: 1rem;
+        font-weight: 600;
+        text-align: start;
+        display: flex;
+    }
+    .valoragregado{
+        font-size: 13px;
+        background-color: #066AA3;
+        color: white;
+        border-radius:3px;    
+        padding: 1rem;
+        
+        font-weight: 600;
+        text-align: start;
+        white-space: normal;
+        display: flex;
+        white-space: normal;
+    }
+    .infractura{
+        font-size: 13px;
+        background-color: #066AA3;
+        color: white;
+        border-radius:3px;    
+        padding: 1rem;
+        font-weight: 600;
+        display: flex;
+        white-space:normal ;
+    }
+
+}
+
 }

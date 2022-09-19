@@ -55,7 +55,7 @@ export const DataScienceIA = () => {
           </div>
           <div className={styles.li}>
             <div className={styles.titulo}>
-              <label className={styles.maquina}>Máquinas de aprendizaje e <br></br>Inteligencia artificial</label>
+              <label className={styles.maquina}>Máquinas de aprendizaje e Inteligencia artificial</label>
             </div>
 
             <div>

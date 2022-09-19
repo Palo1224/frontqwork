@@ -185,27 +185,39 @@ color: black;
         font-size: 12px;
 
     }
-    .listas
-    {
-        width: 10px;
- 
-        font-size: 10px;
 
-    }
     img{
         width: 120px;
     }
-    .titulo{
+    .li{
+        width: 180px;
+        
+    }
+
+
+.titulo{
  
-        font-size: 12px;
-        font-weight: 600;
-        text-align:start;
-        padding: .1rem 3rem;
-        color: white;
-        background-color: #066AA3;
-        border-radius:3px;
-            display: flex ;  
-      
+ padding: 0;
+        .analisisP{
+            font-size: 13px;
+   
+             padding: 1.5rem 1rem;
+   
+        }
+        .analisisD{
+            font-size: 13px;
+   
+            padding: 1.5rem 1rem;
+   
+        }
+        .maquina{
+            font-size: 13px;
     
+             padding: 1rem 1rem;
+   
+            white-space:normal ;
+        }
+
 }
+
 }
