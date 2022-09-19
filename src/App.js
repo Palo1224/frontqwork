@@ -39,7 +39,7 @@ function App() {
           <li>
             <div className={styles.li}>
               <div>
-                <img width={110} src={logoqwork}></img>
+                <img  src={logoqwork}></img>
               </div>
               <p>QworkPymes</p>
 
@@ -54,7 +54,7 @@ function App() {
           <li>
             <div className={styles.li}>
               <div>
-                <img width={110} src={logofaniot}></img>
+                <img src={logofaniot}></img>
               </div>{" "}
               <p> IOT & Robótica</p>
               <span>
@@ -67,7 +67,7 @@ function App() {
           <li>
             <div className={styles.li}>
               <div>
-                <img width={110} src={logocloudpos}></img>
+                <img  src={logocloudpos}></img>
               </div>{" "}
               <p> Su negocio en la Nube</p>
               <span>

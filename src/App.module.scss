@@ -177,7 +177,7 @@ gap: 20px;
       margin-right: auto;
       object-fit: contain;
       margin-bottom: 10px;
-      
+      width: 120px;
       
     }
 
@@ -190,13 +190,13 @@ gap: 20px;
 
     text-align: center;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
 
   }
   span{
     border-top:  0.5px solid gray;
 
-    font-size: 13px;
+    font-size: 12px;
     margin-top: 10px;
     margin-right: 10px;
     white-space: normal;
@@ -236,5 +236,23 @@ gap: 20px;
 }
 
 
-@media (width<900px) {
+@media (width<1000px) {
+
+
+
+    .li{
+      list-style: none;
+      border-right: 0.5px solid gray;
+      p{
+        font-size: 10px;
+      }   span{
+        font-size: 10px;
+      }
+      img{
+        width: 90px;
+      }
+
+      }
+
+  
 }
