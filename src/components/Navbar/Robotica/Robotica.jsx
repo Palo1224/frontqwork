@@ -27,7 +27,7 @@ export const Robotica = () => {
             <div className={styles.imagenArduino}>
               <img  width={210} src={arduino} />
             </div>
-              <p>
+              <p >
                 Kit Market IOT El Kit incluye 3 (tres) Módulos Educativos
                 FANIOT, que introducen al estudiante en los trabajos del futuro,
                 vinculados a la Robótica y a la Programación.
@@ -123,7 +123,7 @@ export const Robotica = () => {
                 Soluciones para Ciudades Inteligentes y Educación Innovadora
               </p>
               <p>
-                <b>Termómetro Inteligente IRM - 100</b>
+                <b>Termómetro Inteligente IRM - 100</b><br></br>
                 Este integrante de la familia de Termómetros Infrarrojos
                 inteligentes, posee un mango ergonómico para realizar mediciones
                 instantáneas sobre objetos y personas. Comparte la precisión y
@@ -132,7 +132,7 @@ export const Robotica = () => {
                 visualización de las mediciones.
               </p>
               <p>
-                <b> Sensores CO2 IOT / NDIR</b>
+                <b> Sensores CO2 IOT / NDIR</b><br></br>
                 Los CO2 Sensores IOT detectan altas concentraciones de CO2 en
                 espacios cerrados, para evitar ambientes viciados y contribuir a
                 la lucha contra el Covid-19.

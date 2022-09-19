@@ -89,8 +89,10 @@ function App() {
           </a>
           
           </p>
-          <p><FaPhoneAlt/> <a target="_blank"  href="tel:+54 11 68474405">+54 11 68474405
-            </a> <a target="_blank" href="tel:+54 11 68474684" >+54 11 68474684</a> <a  target="_blank" href="tel:+54 11 68474238">+54 11 68474238</a> </p>
+          <p><FaPhoneAlt/> 
+             <a target="_blank"  href="tel:+54 11 68474405">  +54 11 68474405 / </a>
+             <a target="_blank" href="tel:+54 11 68474684" >+54 11 68474684 / </a> 
+             <a  target="_blank" href="tel:+54 11 68474238">+54 11 68474238</a> </p>
           <p></p>
         </div>
       </div>

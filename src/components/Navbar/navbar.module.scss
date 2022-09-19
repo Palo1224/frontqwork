@@ -10,9 +10,8 @@
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
   display: flex;
-  white-space: normal
-
-  img {
+  white-space: normal;
+  img{
     margin-left: 500px;
 
     float: left;
@@ -31,8 +30,9 @@
 p{
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
-  justify-content: center;
+  text-align: center;
 }
+
 
 
 }
@@ -44,6 +44,7 @@ p{
   margin-left: auto;
   padding: 1rem;
   justify-content: center;
+  
   label {
     color: black;
     font-weight: 500;
@@ -60,12 +61,8 @@ p{
       color: #066AA3;
     }
   }
-  .side_bar_item::selection {
-    span {
-      background-color: white;
-      color: #066AA3;
-    }
-  }
+
+  
 }
 
 

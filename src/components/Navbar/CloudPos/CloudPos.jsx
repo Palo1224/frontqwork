@@ -10,7 +10,7 @@ export const CloudPos = () => {
     <div className={styles.container}>
       <div className={styles.cloudpos}>
         <h2>CloudPos</h2>
-        <p>“Punto de Venta Integral para la Gestión Comercial de su empresa”</p>
+        <h4 className={styles.subtitulo}>“Punto de Venta Integral para la Gestión Comercial de su empresa”</h4>
         <p>
           Este Software es ideal para aquellos que buscan un aplicativo sencillo
           y flexible que permita manejar las ventas en forma descentraliza y
@@ -45,8 +45,8 @@ export const CloudPos = () => {
         <div className={styles.listas}>
           <div className={styles.li}>
             <div className={styles.titulo}>
-              <label className={styles.kitmarket}>
-                Alcance funcional de los módulos
+              <label className={styles.alcance}>
+                Alcance funcional <br></br>de los módulos
               </label>
             </div>
             <div className={styles.imagenArduino}>
@@ -54,8 +54,8 @@ export const CloudPos = () => {
             </div>
           
             <p>
-            <p>
-                <b>Puntos de Venta</b>
+            <p  className={styles.subtitulo}>
+                Puntos de Venta
               </p>
               <ul>
                 <li>Facturacion en Punto de Venta</li>
@@ -71,8 +71,8 @@ export const CloudPos = () => {
                 <li>Manejo impresora fiscal</li>
                 <li>Ventas por promociones</li>
               </ul>
-              <p>
-                <b>Administración Central</b>
+              <p  className={styles.subtitulo}>
+                Administración Central
               </p>
               <ul>
                 <li>Administracion de locales</li>
@@ -88,8 +88,8 @@ export const CloudPos = () => {
                 <li>Seguridad de Usuario</li>
               </ul>
               
-              <p>
-                <b>Reportes de Gestión</b>
+              <p className={styles.subtitulo}>
+                Reportes de Gestión
               </p>
               <p>
                 Posibilidad de explotación de datos vias Damarts de Ventas,
@@ -101,16 +101,16 @@ export const CloudPos = () => {
 
           <div className={styles.li}>
             <div className={styles.titulo}>
-              <label className={styles.fanborg}>
-                Valor agregado del Punto de Venta{" "}
+              <label className={styles.valoragregado}>
+                Valor agregado<br></br> del Punto de Venta
               </label>
             </div>
             <div>
               <img width={210} src={valor} />
             </div>
             <div>
-            <p>
-              <b>Integración con QWGestión (ERP)</b>
+            <p className={styles.subtitulo}>
+              Integración con QWGestión (ERP)
             </p>
             <p>
               En el caso que su Empresa necesite manejar el proceso de compras,
@@ -119,30 +119,30 @@ export const CloudPos = () => {
               tecnológica que abarca el ciclo comercial de su empresa.
             </p>
 
-            <p>
-              <b>Business Intelligence Integrado</b>
+            <p  className={styles.subtitulo}>
+              Business Intelligence Integrado
             </p>
             <p>
               Podra incorporar herramientas del tipo OLAP a fin de obtener
               reportes del tipo sumarizados y consultas Adhoc.
             </p>
-            <p>
-              <b>Trazabilidad</b>
+            <p  className={styles.subtitulo}>
+              Trazabilidad
             </p>
             <p>
               Todos las operaciones pueden ser trazadas por el modulo de
               "Trazabilidad" permite conocer todas las operaciones al detalle".
             </p>
-            <p>
-              <b>"POINT OF SALE" bajo tecnología</b>
+            <p  className={styles.subtitulo}>
+              "POINT OF SALE" bajo tecnología
             </p>
             </div>
           
           </div>
           <div className={styles.li}>
             <div className={styles.titulo}>
-              <label className={styles.sensores}>
-                Infraestructura Tecnológica
+              <label className={styles.infractura}>
+                Infraestructura <br></br>Tecnológica
               </label>
             </div>
 
@@ -150,34 +150,34 @@ export const CloudPos = () => {
               <img src={infractura} width={210} />
             </div>
     <div>
-    <p>
-              <b>Requerimientos Mínimos</b>
+    <p  className={styles.subtitulo}>
+              Requerimientos Mínimos
             </p>
             <p>
             Requiere un minimo de Hardware y practicamente cero licenciamiento.
             </p>
 
-            <p>
-              <b>Licenciamiento</b>
+            <p  className={styles.subtitulo}>
+              Licenciamiento
             </p>
             <p>
             Tanto los punto de ventas como el módulo de administración Central, son LIBRES DE LICENCIAMIENTO. Su corazon esta montado sobre el lenguaje mas popular de Internet JAVA y su certificación sobre LINUX ha sido probada en mas de tres versiones de este popular sistema operativo.
         
             </p>
-            <p>
-              <b>Bases de Datos</b>
+            <p  className={styles.subtitulo}>
+              Bases de Datos
             </p>
             <p>
             Posibilidad de correr sobre Oracle Database Express Edition/Standard Edition/Enterprise Edition, para los Puntos de venta o la administración Central.
             </p>
-            <p>
-              <b>Accesos Locales/Remotos</b>
+            <p  className={styles.subtitulo}>
+              Accesos Locales/Remotos
             </p>
             <p>
             Certificado sobre ambientes LAN/MAN/WAN, sin limites geograficos para la conectividad.
             </p>
-            <p>
-              <b>Seguridad en la transmisión de datos</b>
+            <p className={styles.subtitulo}>
+              Seguridad en la transmisión de datos
             </p>
             <p>
             La transmisión de datos esta basada en encriptamiento asimétrico, combinada con algoritmos de HASH para el control de integridad de datos.

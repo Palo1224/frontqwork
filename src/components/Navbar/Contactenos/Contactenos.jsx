@@ -10,7 +10,7 @@ export const Contactenos = () => {
         <p>
           Gracias por visitarnos
           <p>
-          Si Usted esta interesado por nuestros servicios
+          Si Usted está interesado por nuestros servicios
           o productos no dude en contáctarnos completando este formulario.
           Nuestros asistentes comerciales en breve estarán asesorandolo y
           respondiendo todas sus inquietudes.
