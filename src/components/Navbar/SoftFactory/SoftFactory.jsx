@@ -4,6 +4,8 @@ import styles from "./softFactory.module.scss";
 export const SoftFactory = () => {
   return (
     <div className={styles.factory}>
+            <div className={styles.listas}>
+
       <h2> Software Factory </h2>
       <h3>Desarrollos a medida y genericos para el mercado</h3>
       <p>
@@ -25,7 +27,6 @@ export const SoftFactory = () => {
         adquirirlo el mismo debería cumplir con los siguientes estandares:
       </p>
       
-      <div className={styles.listas}>
        
           <div className={styles.lista}>
           <div className={styles.numero}>
