@@ -33,7 +33,7 @@
     text-align: start;
     display: flex;
     flex-direction: row;
-    padding: 9rem;
+    padding: 1rem;
     border-radius: 3px;
     font-family: 'Poppins', sans-serif;
     
@@ -59,7 +59,25 @@ width: 40rem;
         }
 
 }
+@media(width>1000px)
+{
+    
+    .container
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+    .home{
+        width: auto;
 
+        font-size: 16px;
+        gap: 20px;
+        padding: 9rem;
+
+
+    }
+}
 
 @media(width<1000px)
 {
