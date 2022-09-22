@@ -31,10 +31,9 @@
         color:#066AA3;
         border-bottom: 1px solid gray;
   font-family: Verdana, Arial, Helvetica, sans-serif;
-        margin-bottom: 0;
 
       }
-      h3{         
+      h4{         
         color:#066AA3;
         margin-top: .6rem;
         margin-bottom: 1rem;
@@ -44,8 +43,11 @@
       }
 
       p{
-        font-size: 15px;
+        font-size: 14px;
         font-family: 'Poppins', sans-serif;
+        margin-top: 10px;
+
+
     };
 
       
@@ -53,11 +55,13 @@
 .listas{
     display: grid;
   grid-template-columns: 1fr;
-
+  padding-right: .5rem;
+  padding-left: .5rem;
         span{
             margin: 10px;
     
         }
+
 
 }
 .lista{
@@ -66,15 +70,17 @@
     align-items: center;
     
     p{
-        font-size: 15px;
+        font-size: 14px;
         font-family: 'Poppins', sans-serif;
+        margin-top: 10px;
+
 
     };
     text-align: justify;
     label{
         color:#066AA3;
         font-weight: 700;
-        font-size: 15px;
+        font-size: 14px;
         font-family: Verdana, Arial, Helvetica, sans-serif;
 
 

@@ -19,7 +19,7 @@
     padding: 1rem;  
     margin-bottom: 1rem;
     p{
-        font-size: 15px;
+        font-size: 14px;
         font-family: 'Poppins', sans-serif;
     };
   h2{
@@ -46,12 +46,17 @@
     text-align: start;
     display: flex;
     flex-direction: column;
-    padding: .5rem;
+   padding-right: .5rem;
+   padding-left: .5rem;
+    
     border-radius: 3px;
 color: black;
 text-align: justify;
 
 
+p{
+    margin-top: 10px;
+}
     }
 
 

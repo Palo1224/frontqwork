@@ -25,7 +25,7 @@ export const Home = () => {
 </div>
 </label>
  
-<img width={200}  src={principal}></img>
+<img width={230} height={120}  src={principal}></img>
 
 
 

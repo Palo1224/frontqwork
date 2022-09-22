@@ -14,7 +14,7 @@ export const Navbar = () => {
 
       <img src={logo} width={180}></img>
       <div>
-      <p>Integrando Tecnología e Información para las organizaciones </p>
+      <p>Integrando Tecnología e Información para las Organizaciones </p>
 
       </div>
       </div>
@@ -26,7 +26,7 @@ export const Navbar = () => {
                 <label className={styles.side_bar_item}onClick={ () => navigate("/home")}><span>Home</span></label>
                 <label className={styles.side_bar_item}onClick={ () =>   navigate("/sobrenosotros")}><span>Sobre Nosotros</span></label>
                 <label className={styles.side_bar_item}onClick={ () =>navigate("/softwarefactory") }><span>Software Factory</span></label>
-                <label className={styles.side_bar_item}onClick={ () => navigate("/robotica") }><span>IOT & Robotica</span></label>
+                <label className={styles.side_bar_item}onClick={ () => navigate("/robotica") }><span>IOT & Robótica </span></label>
                 <label className={styles.side_bar_item}onClick={ () => navigate("/cloudpos") }><span>CloudPos</span></label>
                 <label className={styles.side_bar_item}onClick={ () => navigate("/datascience&ia") }><span>DataScience & IA</span></label>
                 <label className={styles.side_bar_item}onClick={ () => navigate("/soporte") }><span>Soporte</span></label>

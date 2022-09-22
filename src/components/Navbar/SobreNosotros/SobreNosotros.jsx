@@ -12,7 +12,7 @@ export const SobreNosotros = () => {
       <h2 > Sobre Nosotros</h2>
       <p>
         QWORK es una empresa enfocada a soluciones tecnológicas
-        orientadas a la integración de Sistemas de información.
+        orientadas a la integración de sistemas de información.
         Por integración entendemos, la capacidad de proveer soluciones completas que permitan a
         nuestros clientes contar en un determinado proyecto con un proveedor
         único.</p>

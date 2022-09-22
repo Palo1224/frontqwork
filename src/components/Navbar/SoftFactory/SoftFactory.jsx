@@ -7,7 +7,7 @@ export const SoftFactory = () => {
             <div className={styles.listas}>
 
       <h2> Software Factory </h2>
-      <h3>Desarrollos a medida y genericos para el mercado</h3>
+      <h4>Desarrollos a medida y genéricos para el mercado.</h4>
       <p>
         Desarrollamos soluciones basadas en sistemas del tipo TPS
         (transaccionales) que abarcan soluciones basadas en Gestión Comercial
@@ -17,14 +17,14 @@ export const SoftFactory = () => {
       </p>
       <p>
         Nuestros desarrollos son escalables, su core tecnológico está basado en
-        el lenguaje mas popular para desarrollo de aplicaciones JAVA y en un
-        motor de base de datos transaccional lider del mercado (Oracle
+        el lenguaje más popular para desarrollo de aplicaciones JAVA y en un
+        motor de base de datos transaccional líder del mercado (Oracle
         Database).
       </p>
       <p>
         {" "}
         Consideramos que a la hora de elegir desarrollar un software o bien
-        adquirirlo el mismo debería cumplir con los siguientes estandares:
+        adquirirlo el mismo debería cumplir con los siguientes estándares:
       </p>
       
        
@@ -77,7 +77,7 @@ export const SoftFactory = () => {
             <br></br>
             La base de datos debe cumplir con requisitos de escalabilidad,
             seguridad y resguardo, con un alto nivel de confiabilidad. Debe ser
-            de facil acceso y sobre todo performante. Deben estar abiertas a las
+            de fácil acceso y sobre todo performante. Deben estar abiertas a las
             diversas herramientas del tipo ETL enfocada a procesos de Business
             Intelligence o Big Data.{" "}
           </p>
@@ -99,7 +99,7 @@ export const SoftFactory = () => {
           <p>
 
 
-            <label>Interoperatibilidad</label>
+            <label>Interoperabilidad</label>
             <br></br>
             Debe poder implementarse de tal forma que la conectividad de
             diversas redes generen transparencias en el uso del mismo.{" "}
