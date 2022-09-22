@@ -11,9 +11,9 @@ export const SoftFactory = () => {
       <p>
         Desarrollamos soluciones basadas en sistemas del tipo TPS
         (transaccionales) que abarcan soluciones basadas en Gestión Comercial
-        (ERP), Puntos de Venta, Manejos de Stock, integrándolos facilmente con
+        (ERP), Puntos de Venta, Manejos de Stock, integrándolos fácilmente con
         soluciones de terceros basadas en Business Intelligence, Big Data,
-        Datamining.
+        Data Mining.
       </p>
       <p>
         Nuestros desarrollos son escalables, su core tecnológico está basado en
@@ -35,10 +35,10 @@ export const SoftFactory = () => {
   </div>
           <div>
             <p>
-              <label>Sistema Operativo donde se instalará</label>
+              <label>Sistema operativo donde se instalará</label>
               <br></br>
               No debe ser una barrera de entrada, el software aplicativo debe
-              poder adaptarse tanto a plataformas abiertas como propietarias
+              poder adaptarse tanto a plataformas abiertas como propietarias.
             </p>
           </div>
         </div>
@@ -53,10 +53,10 @@ export const SoftFactory = () => {
             <p>
               <label>Lenguaje de programación</label>
               <br></br>
-              Debe ser el mismo abierto y multiplataforma permitiéndole a la
-              empresa llegado el caso migrar sus aplicativos sin tener mayores
+              Debe ser el mismo abierto y multiplataforma, permitiéndole a la
+              empresa, llegado el caso, migrar sus aplicativos sin tener mayores
               costos relacionados a la migración y reinstalación por cambios en
-              la infraestructura tecnológica. Es decir deberia tener una
+              la infraestructura tecnológica. Es decir, debería tener una
               flexibiidad tal de correr en distintos procesadores y sistemas
               operativos del mercado​.
             </p>
@@ -73,7 +73,7 @@ export const SoftFactory = () => {
           <div>
 
           <p>
-            <label>Base de Datos</label>
+            <label>Base de datos</label>
             <br></br>
             La base de datos debe cumplir con requisitos de escalabilidad,
             seguridad y resguardo, con un alto nivel de confiabilidad. Debe ser

@@ -8,12 +8,12 @@ export const Contactenos = () => {
 
         <h2>Contáctenos</h2>
         <p>
-          Gracias por visitarnos
+          Gracias por visitarnos.
           <p>
-          Si Usted está interesado por nuestros servicios
+          Si usted está interesado por nuestros servicios
           o productos no dude en contáctarnos completando este formulario.
           Nuestros asistentes comerciales en breve estarán asesorandolo y
-          respondiendo todas sus inquietudes.
+      respondiendo todas sus inquietudes.
             </p> 
         </p>
       <div className={styles.form}>

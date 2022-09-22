@@ -44,8 +44,8 @@ function App() {
               <p>QworkPymes</p>
 
               <span>
-                Soluciones automatizadas para su Hogar, Oficina,
-                 Industria, sin alterar su instalación actual
+                Soluciones automatizadas para su hogar, oficina,
+                 industria, sin alterar su instalación actual
                  brindando máximo Confort, Seguridad y
                 Operatividad.
               </span>
@@ -58,9 +58,9 @@ function App() {
               </div>{" "}
               <p> IOT & Robótica</p>
               <span>
-                Distribuidores Oficiales de soluciones basadas en
+                Distribuidores oficiales de soluciones basadas en
                 Internet  de las cosas y robótica educativa
-                Fabricadas en la RepúblicaArgentina por FANIOT
+                fabricadas en la República Argentina por FANIOT
               </span>
             </div>{" "}
           </li>
@@ -71,8 +71,7 @@ function App() {
               </div>{" "}
               <p> Su negocio en la Nube</p>
               <span>
-                Solución Integral para su negocio las 24 hs. los 365
-                Días del año.
+                Solución Integral para su negocio las 24 hs. los 365 días del año.
               </span>
             </div>
           </li>
@@ -84,7 +83,7 @@ function App() {
           <p>
           <FaMapMarkerAlt></FaMapMarkerAlt>
           <a target="_blank" href="https://goo.gl/maps/BMHfivXVRc6K7PXv5">
-          Av. Caseros 2862 P3 Of. A Distrito Tecnológico Ciudad Autonoma Bs.
+          Av. Caseros 2862 P3 of. A Distrito Tecnológico Ciudad Autonoma Bs.
             As. Argentna
           </a>
           

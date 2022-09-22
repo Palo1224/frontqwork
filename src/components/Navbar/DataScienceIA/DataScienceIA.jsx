@@ -9,13 +9,12 @@ export const DataScienceIA = () => {
       <div className={styles.productServi}>
         <h2>Data Science e Inteligencia Artificial</h2>
         <p>
-        En QWORK entendemos que sus datos y su historia son el potencial para  pode montar escenarios que apoyen la toma de decisiones. Es por eso que nuestro staff de profesionales puede acompañarlo en el proceso de obtencion de patrones de conducta, indicadores y reingenieria de negocios, utilizando los mismos como fuente de informacion primaria.
+        En QWORK entendemos que sus datos y su historia son el potencial para  pode montar escenarios que apoyen la toma de decisiones. Es por eso que nuestro staff de profesionales puede acompañarlo en el proceso de obtención de patrones de conducta, indicadores y reingenieria de negocios, utilizando los mismos como fuente de información primaria.
         </p>
         <p>
           Contamos con servicios <b>on demand
             </b> o <b>fijos (mensuales)
-              </b> dimensionando
-              dimensionando cada uno en base a la necesidad de cada cliente.
+              </b> dimensionando cada uno en base a la necesidad de cada cliente.
         </p>
 
         <div className={styles.listas}>
@@ -29,10 +28,10 @@ export const DataScienceIA = () => {
 </div>
             
               <p>
-              El proceso de analisis deductivo ayuda a las organizaciones a entender que sucedio, cual pueden ser la mejor estrategia y sobre todo apoyar la toma de decisiones.
+              El proceso de análisis deductivo ayuda a las organizaciones a entender que sucedio, cual pueden ser la mejor estrategia y sobre todo apoyar la toma de decisiones.
               </p>
               <p>
-              Utilizamos herramientas OLAP y motores MOLAP combinado con poderosas ETLs para tener una vision del negocio basado en los datos.
+              Utilizamos herramientas OLAP y motores MOLAP combinado con poderosas ETLs para tener una visión del negocio basado en los datos.
               </p>
         
           </div>
@@ -48,7 +47,7 @@ export const DataScienceIA = () => {
           
 
               <p>
-              Los datos de su organización son sometidos a procesos basados en algoritmos de minería de datos que le permitiran poder obtener una análsis predictivo, identificando patrones de conducta, clusterizaciones entro otras ventajas de dichas tecnologias.
+              Los datos de su organización son sometidos a procesos basados en algoritmos de minería de datos que le permitiran poder obtener una análsis predictivo, identificando patrones de conducta, clusterizaciones entro otras ventajas de dichas tecnologías.
               </p>
              
         
@@ -66,7 +65,7 @@ export const DataScienceIA = () => {
               <p>
               Los procesos de negocio pueden necesitar aletargar el flujo de datos por indicadores que surgen del análisis de información.
               </p>
-              <p>Nuestro equipo pone en marcha máquinas de aprendizaje de rápida  implementación y bajo costo, como así también procesos de Inteligencia Artificial aplicados al flujo de procesos organizacional
+              <p>Nuestro equipo pone en marcha máquinas de aprendizaje de rápida  implementación y bajo costo, como así también procesos de Inteligencia Artificial aplicados al flujo de procesos organizacional.
 
               </p>
              
