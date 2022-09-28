@@ -84,7 +84,7 @@ function App() {
           <FaMapMarkerAlt></FaMapMarkerAlt>
           <a target="_blank" href="https://goo.gl/maps/BMHfivXVRc6K7PXv5">
           Av. Caseros 2862 P3 of. A Distrito Tecnológico Ciudad Autonoma Bs.
-            As. Argentna
+            As. Argentina
           </a>
           
           </p>
