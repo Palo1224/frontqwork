@@ -54,10 +54,10 @@ export const CloudPos = () => {
             </div>
           
             <p>
-            <p  className={styles.subtitulo}>
+      
+              <ul>      <p  className={styles.subtitulo}>
                 Puntos de Venta
               </p>
-              <ul>
                 <li>Facturación en Punto de Venta</li>
                 <li>Proveedores en Punto de Venta</li>
                 <li>Manejo de lista de precios</li>
@@ -71,10 +71,11 @@ export const CloudPos = () => {
                 <li>Manejo impresora fiscal</li>
                 <li>Ventas por promociones</li>
               </ul>
-              <p  className={styles.subtitulo}>
+         
+              <ul>
+                       <p  className={styles.subtitulo}>
                 Administración Central
               </p>
-              <ul>
                 <li>Administración de locales</li>
                 <li>Administración de empleados</li>
                 <li>Administración de cajas</li>
