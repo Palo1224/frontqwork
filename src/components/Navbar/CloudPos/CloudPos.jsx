@@ -52,12 +52,12 @@ export const CloudPos = () => {
             <div className={styles.imagenArduino}>
               <img width={210} src={analisis} />
             </div>
-          
-            <p>
-      
-              <ul>      <p  className={styles.subtitulo}>
+          <p  className={styles.subtitulo}>
                 Puntos de Venta
               </p>
+            
+      
+              <ul>      
                 <li>Facturación en Punto de Venta</li>
                 <li>Proveedores en Punto de Venta</li>
                 <li>Manejo de lista de precios</li>
@@ -71,11 +71,11 @@ export const CloudPos = () => {
                 <li>Manejo impresora fiscal</li>
                 <li>Ventas por promociones</li>
               </ul>
-         
-              <ul>
-                       <p  className={styles.subtitulo}>
+                      <p  className={styles.subtitulo}>
                 Administración Central
               </p>
+              <ul>
+          
                 <li>Administración de locales</li>
                 <li>Administración de empleados</li>
                 <li>Administración de cajas</li>
@@ -97,7 +97,7 @@ export const CloudPos = () => {
                 compras, stocks, tomando como dimensiones tiempo, lugar de
                 venta, línea de productos, etc.
               </p>
-            </p>
+            
           </div>
 
           <div className={styles.li}>
